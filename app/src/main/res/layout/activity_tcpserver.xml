@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/theme_title"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_title"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_tcpserver_layout_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:adjustViewBounds="true"
+                android:duplicateParentState="true"
+                android:paddingLeft="5.0dip"
+                android:scaleType="fitStart"
+                android:src="@drawable/sl_ibtn_greenleft" />
+
+            <TextView
+                android:id="@+id/activity_tcpserver_textview_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="UDP Server"
+                android:textColor="@drawable/sl_txt_bottommenu"
+                android:textSize="@dimen/txt_inputhint" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_tcpserver_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingRight="15.0dip"
+            android:singleLine="true"
+            android:textColor="@color/txt_green"
+            android:textSize="@dimen/txt_inputtxt_small" />
+
+        <TextView
+            android:id="@+id/activity_tcpserver_textview_connect"
+            android:layout_width="100.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="end|center"
+            android:paddingRight="15.0dip"
+            android:singleLine="true"
+            android:text="创建服务器"
+            android:textColor="@drawable/sl_txt_titlebutton"
+            android:textSize="@dimen/txt_listitem_button" />
+    </RelativeLayout>
+
+    <!--<com.mellow.widget.FixedPager-->
+        <!--android:id="@id/activity_tcpserver_fixedpager"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:background="@color/theme_white"-->
+        <!--android:overScrollMode="never"-->
+        <!--android:scrollbars="none" />-->
+</LinearLayout>

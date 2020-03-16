@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NetTester</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="More">更多</string>
+    <string name="Chat">会话</string>
+    <string name="title_tcp">TCP</string>
+    <string name="title_tcp_server">TCP server</string>
+    <string name="title_udp_signle">UDP单播</string>
+    <string name="title_udp_both">UDP组播/广播</string>
+    <string name="title_udp_server">UDP Server</string>
+    <string name="title_setting">设置</string>
+    <string name="exit">再按一次退出！</string>
+    <string name="receivearea">接收区</string>
+    <string name="encode">编码</string>
+    <string name="clean">清除</string>
+    <string name="paste">粘贴</string>
+    <string name="copy">复制</string>
+    <string name="send">发送</string>
+    <string name="sendarea">发送区</string>
+    <string name="switchmsg">交换</string>
+    <string name="save">保存</string>
+</resources>
